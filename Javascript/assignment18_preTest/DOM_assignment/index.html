@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>Tip Calculator</header>
+    <p>Enter the bill</p>
+    <input type="text" id="bill" value="56.32">
+    <br>
+    <input type="range" name="tips" id="tipsSlider" max="100" min="0" step="1" value="25">
+    <label for="range"><output id="tipsPercent">25</output>%</label>
+    <p>Tip: <output id="tipsOutput">14.08</output></p>
+    <p>Total: <output id="totalAmount">70.40</output></p>
+</body>
+</html>
