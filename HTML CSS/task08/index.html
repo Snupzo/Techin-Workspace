@@ -1,11 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      div,
+      h1,
+      p {
+        margin-top: 20px;
+      }
+      input {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body style="margin-left: 50px">
+    <h1>Užpildykite formą:</h1>
+    <p><strong>Visi laukai privalomi.</strong></p>
+    <form action="">
+      <div>Vardas (iš didžiosios raidės)</div>
+      <input type="text" placeholder="Vardas" />
+      <div>Jūsų telefono numeris:</div>
+      <input type="text" placeholder="+370-xxx-xxxxx" />
+      <div>El.pašto adresas:</div>
+      <input type="text" placeholder="el.p.adresas" />
+      <div>Jūsų megstamiausios internetinės svetainės adresas:</div>
+      <input type="text" placeholder="url adresas" />
+      <div>Jūsų gimimo data:</div>
+      <input type="text" value="yyyy-mm-dd" />
+      <div>Jūsų amžius:</div>
+      <input
+        type="number"
+        name=""
+        id=""
+        min="18"
+        max="65"
+        placeholder="nuo 18 iki 65 metų"
+        style="width: 125px"
+      />
+      <div>Jūsų pašto kodas:</div>
+      <input type="text" placeholder="XX-01234" />
+      <div>Jūsų mėgstamiausia spalva:</div>
+      <input type="color" name="" id="" />
+      <br />
+      <button>Pateikti</button>
+    </form>
+  </body>
 </html>
