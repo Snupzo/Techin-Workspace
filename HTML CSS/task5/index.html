@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mokinių tvarkaraščio pavyzdys</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+      }
+      th {
+        background-color: #ffffff;
+      }
+
+      .pirmadienis {
+        background-color: #9bc2db;
+      }
+      .matematika {
+        background-color: #8ce193;
+      }
+      .lietuviu {
+        background-color: #ff921d;
+      }
+      .klase-5a {
+        background-color: #fbb3c2;
+      }
+      .kontrolinis {
+        background-color: #fffec4;
+      }
+      .namu-darbai {
+        background-color: #cccccc;
+      }
+      .antradienis {
+        background-color: #e86e6c;
+      }
+      .kuno-kultura {
+        background-color: #1aa39d;
+      }
+      .sporto-sale {
+        background-color: #f9919b;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mokinių tvarkaraščio pavyzdys</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Diena</th>
+          <th>Dalykas</th>
+          <th>Klasė</th>
+          <th>Pastaba</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="pirmadienis" rowspan="2">Pirmadienis</td>
+          <td class="matematika">Matematika</td>
+          <td class="klase-5a" rowspan="2">5A</td>
+          <td class="kontrolinis">Kontrolinis</td>
+        </tr>
+        <tr>
+          <td class="lietuviu">Lietuvių kalba</td>
+          <td class="namu-darbai">Namų darbai</td>
+        </tr>
+        <tr>
+          <td class="antradienis">Antradienis</td>
+          <td class="kuno-kultura" colspan="2">
+            Kūno kultūra (jungtinė pamoka)
+          </td>
+          <td class="sporto-sale">Sporto salė</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
