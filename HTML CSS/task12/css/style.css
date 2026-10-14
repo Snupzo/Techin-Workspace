@@ -90,20 +90,29 @@ header nav li {
 /* :link
     teksto spalva: balta;
 */
-
+header a:link{
+    color: white;
+}
 /* :visited 
     teksto spalva: balta;
 */
-
+header a:visited{
+    color: white;
+}
 /* :hover
     teksto spalva: balta;
     tesktas pabrauktas;
 */
-
+header a:hover{
+    color: white;
+    text-decoration: underline;
+}
 /* :active
     teksto spalva: pilka;
 */
-
+header a:active{
+    color: gray;
+}
 /*************************************
     
     Tinklapio pagrindinė dalis | Main 
