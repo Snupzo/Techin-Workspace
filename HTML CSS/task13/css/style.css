@@ -1,0 +1,105 @@
+
+body{
+    margin: 0;
+}
+header h1{
+    background-color: gray;
+    color: white;
+    padding: 40px;
+    margin: 0px;
+}
+header nav{
+    background-color: darkgray;
+    margin: 0px;
+    padding: 10px;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+header ul li{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+}
+header h1 span{
+    color: yellow;
+    font-size: larger;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2;
+}
+article{
+    flex-basis: 50%;
+    margin-top: 10px;
+}
+article figure{
+    margin: 0;
+    float: left;
+    margin-right: 5px;
+    color: orange;
+}
+article figure figcaption{
+    text-align: end;
+    margin-top: -10px;
+    font-style: italic;
+}
+article a{
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+article p{
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 50px;
+}
+a:hover{
+    color: red;
+}
+article p span{
+    color: orange;
+    letter-spacing: 20px;
+}
+article h3{
+    text-transform: uppercase;
+}
+
+aside h4{
+    padding: 20px;
+    background-color: darkgray;
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 75px;
+    letter-spacing: 20px;
+    text-align: center;
+}
+aside nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+aside nav li{
+    a{
+        text-decoration: none;
+        color: orange;
+    }
+}
+aside a:hover{
+    color: red;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    padding: 50px;
+    padding-top: 10px;
+    p{
+        color: white;
+    }
+}
