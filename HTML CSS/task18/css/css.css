@@ -1,0 +1,12 @@
+li{
+    list-style: none;
+}
+
+li::before{
+    content: "\265B";
+}
+
+li a[href*="darb"]::after{
+    content: "\265E";
+    display:block;
+}
