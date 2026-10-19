@@ -44,6 +44,6 @@ input[value="Reset"]{
 select{
     border-color: red;
 }
-div input:hover, select:hover{
+input:hover, select:hover{
     background-color: orangered;
 }
