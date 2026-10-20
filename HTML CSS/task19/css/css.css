@@ -1,0 +1,77 @@
+html{
+    font-family: 'Jersey 10', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+    box-sizing: border-box;
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+[class="Page"]{
+    border-radius: 20px;
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+}
+header{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+img[class="Icon"]{
+    width:40px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+img[class="Profile"]{
+    width: 100px;
+    border-radius: 100%;
+    height: 100px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+    border: solid 2px lightseagreen;
+}
+h3{
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 600;
+    font-size:x-large;
+    margin-bottom: -15px;
+}
+p{
+    text-align: center;
+}
+input{
+    background-color: lightseagreen;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+}
+.inputs{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.bull{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
