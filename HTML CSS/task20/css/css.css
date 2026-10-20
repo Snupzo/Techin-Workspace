@@ -1,0 +1,41 @@
+body{
+    box-sizing: content-box;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.material-symbols-outlined {
+    height: auto;
+    width: auto;
+    font-size: 200px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40;
+}
+.main{
+    width: 500px;
+    background-color: darkred;
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px dotted white;
+    border-radius: 20%;
+    box-shadow: -1px -1px 42px 18px rgba(0,0,0,0.44);
+    -webkit-box-shadow: -1px -1px 42px 18px rgba(0,0,0,0.44);
+    -moz-box-shadow: -1px -1px 42px 18px rgba(0,0,0,0.44);
+}
+.words{
+    font-size: 80px;
+    text-align: center;
+    color:rgb(20, 156, 193);
+}
+.out{
+    background-color: darkturquoise;
+    padding: 50px;
+    border-radius: 20%;
+    border: 5px solid white;
+}
