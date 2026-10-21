@@ -1,0 +1,71 @@
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+label.light {
+    font-weight: 300;
+    display: inline;
+}
+
+/* Jūsų CSS prasideda čia */
+*{
+    box-sizing: content-box;
+}
+h1{
+    text-align: center;
+}
+.number{
+    background-color: lightgreen;
+    border-radius: 100%;
+    padding-inline: 7px;
+}
+form{
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    background-color:whitesmoke;
+    width:fit-content;
+}
+fieldset{
+    border-style: none;
+    padding-inline: 10px;
+}
+input, textarea, select{
+    width: 100%;
+    background-color: rgb(236, 231, 231);
+    border-style: none;
+}
+[type="radio"], [type="checkbox"]{
+    width: auto;
+}
+legend{
+    font-size: larger;
+}
+
+button{
+    display: block;
+    margin-inline: auto;
+    width:90%;
+    height: 30px;
+    background-color: lightgreen;
+    border-style: none;
+}
+label{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
