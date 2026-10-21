@@ -1,0 +1,19 @@
+div {
+    background-clip: border-box;
+  background-image:
+    url("../assets/cat7-removebg-preview.png"),
+    url("../assets/ty_swartz-cat-551554-removebg-preview.png"),
+    url("../assets/magicdesk-office-730681_1920.jpg");
+  background-position:
+    57% 89%,
+    55% 88%,
+    top left;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-size: 3rem, 5rem, 100%;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+}
