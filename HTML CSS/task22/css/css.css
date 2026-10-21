@@ -1,0 +1,55 @@
+*{
+    box-sizing: content-box;
+    font-family: "Bitcount Single", system-ui;
+}
+body{
+    background-color: tan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  color: goldenrod;
+  font-size: 40px;
+}
+.theBox{
+    background-color: whitesmoke;
+    margin-top: 100px;
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0px 0px 63px 26px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 0px 0px 63px 26px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 63px 26px rgba(0,0,0,0.58);
+}
+.profilePic{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -135px;
+    border-radius: 100%;
+    border-style: groove;
+    border: 10px groove darkred;
+}
+.fullname{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.stars{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
