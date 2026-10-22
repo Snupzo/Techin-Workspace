@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-image: url("../assets/teefarm-lake-1681485_1920.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: -2;
+}
+
+img{
+    position: absolute;
+    z-index: 0;
+    scale: 0.4;
+    transform: translate(-70%, -70%);
+}
+h1, p{
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: 1000;
+    letter-spacing: 1rem;
+}
+
+button{
+    /* display: flex;
+    justify-self: center;
+    margin-top: 25rem; */
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 0.2rem;
+    color: white;
+    background-color: goldenrod;
+}
+.mid{
+    position: relative;
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+    transform: translate(0, 300%);
+}
+.nav{
+    display: flex;
+    width: fit-content;
+    justify-self: right;
+    transform: translate(-8rem, -7rem);
+}
+.links{
+    padding: 0.5rem;
+    background: none;
+    border-style: none;
+    font-weight: 750;
+    position: relative;
+
+}

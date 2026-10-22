@@ -1,0 +1,49 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: wheat;
+}
+/* img{
+    height: 30rem;
+} */
+.box1{
+    position: relative;
+    z-index: 2;
+    background-image: url("../assets/cacti.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 15rem;
+    border: 1px solid black;
+    width: 11rem;
+    transform: translate(40%, 70%);
+    
+}
+
+.box2{
+    z-index: -1;
+    padding: 10rem;
+    padding-bottom: 5rem;
+    padding-right: 5rem;
+    padding-left: 20rem;
+    width: 11rem;
+    transform: translate(115%, -65%);
+    background-color: white;
+    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+}
+h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+span{
+    text-decoration:overline 0.1rem;
+}
+button{
+    padding: 1rem;
+    letter-spacing: 0.2rem;
+    margin-top: 3rem;
+}
