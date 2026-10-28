@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin-inline: auto;
+}
+
+.container{
+    background-color: rgb(41, 0, 0);
+    display: grid;
+    gap: 0.5rem;
+    height: 70%;
+    width: 50%;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(25, 1.75rem);
+    padding: 1rem;
+}
+img{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    display: block;
+}
+.stars{
+    grid-row: 5 / 9;
+    grid-column: 1 / 6;
+}
+.skull{
+    grid-row: 1 / 9;
+    grid-column: 6 / 16;
+}
+.robot{
+    grid-row: 9 / 14;
+    grid-column: 1 / 5;
+}
+.matrix{
+    grid-row: 1 / 5;
+    grid-column: 1 / 6;
+}
+.bitcoin{
+    grid-row: 9 / 13;
+    grid-column: 12 / 16;
+}
+.mindbug{
+    grid-column: 5 / 12;
+    grid-row: 9 / 16;
+}
+.cd{
+    grid-row: 14 / 20;
+    grid-column: 1 / 5;
+}
+.eta{
+    grid-column: 12 / 16;
+    grid-row: 13 / 18;
+}
+.iseeyou{
+    grid-column: 5 / 12;
+    grid-row: 16 / 23;
+}
+.oldpc{
+    display: none;
+}
+.likesub{
+    grid-column: 1 / 5;
+    grid-row: 20 / 26;
+}
+.knight{
+    grid-row: 23 / 26;
+    grid-column: 5 / 12;
+}
+.ai{
+    grid-row: 18 / 26;
+    grid-column: 12 / 16;
+}
