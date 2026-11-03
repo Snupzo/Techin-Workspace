@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Variables pavyzdys</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="hero card">
+      <p class="eyebrow">Mokymosi pavyzdys</p>
+      <h1>CSS Variables demonstracija</h1>
+      <p class="subtitle">
+        Šiame pavyzdyje naudojami <code>:root</code>, lokaliniai kintamieji,
+        temos perjungimas ir paprasta komponentų sistema.
+      </p>
+
+      <div class="controls">
+        <button id="themeToggle" class="btn primary">Perjungti temą</button>
+        <button id="radiusToggle" class="btn secondary">Keisti radius</button>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="card">
+        <h2>Pagrindiniai kintamieji</h2>
+        <ul class="list">
+          <li><code>--color-primary</code> – pagrindinė spalva</li>
+          <li><code>--spacing-md</code> – tarpai</li>
+          <li><code>--radius-md</code> – kampų apvalinimas</li>
+          <li><code>--shadow-md</code> – šešėlis</li>
+        </ul>
+      </section>
+
+      <section class="card accent-box">
+        <h2>Lokalus kintamasis</h2>
+        <p>
+          Ši kortelė naudoja savo <code>--card-accent</code> reikšmę, kuri
+          perrašo bendrą spalvą tik šiam blokui.
+        </p>
+        <a href="#" class="link">Nuorodos pavyzdys</a>
+      </section>
+
+      <section class="card">
+        <h2>Kodėl verta naudoti?</h2>
+        <p>
+          CSS variables leidžia lengviau valdyti temas, spalvas, tarpų sistemą,
+          dark mode ir komponentų dizaino nuoseklumą.
+        </p>
+        <div class="badge-row">
+          <span class="badge">theme</span>
+          <span class="badge">spacing</span>
+          <span class="badge">colors</span>
+          <span class="badge">reusable</span>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
