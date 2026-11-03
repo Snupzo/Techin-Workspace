@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    justify-content: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-template-rows: 5rem 5rem;
+    gap: 2rem;
+    margin-top: 10rem;
+}
+article{
+    background-color: pink;
+    border-radius: 1rem;
+    text-align: center;
+    align-content: center;
+}
+.a{
+    grid-area: 1 / 2 / 2 / 3;
+}
+.b{
+    grid-area: 2 / 2 / 3 / 3;
+}
+.c{
+    grid-area: 2 / 3 / 3 / 4;
+}
+.e{
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+/* D and F auto-floats in needed position */
