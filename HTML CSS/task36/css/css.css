@@ -1,0 +1,144 @@
+/* Overall style */
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    --main-color: darkorange;
+    --main-hover: darkblue;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+.container{
+    max-width: 80rem;
+    min-width: 40rem;
+    margin-inline: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3{
+    font-family: "Carter One", sans-serif;
+}
+
+main{
+    padding-inline: 5rem;
+}
+
+/* HEADER */
+
+header{
+    height: 30vw;
+    background-image: url(../images/Backimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 20vw;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 3rem;
+    padding-block: 0.75rem;
+    text-align: center;
+    align-items: center;
+}
+nav > ul{
+    margin-right: 3rem;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+header h1{
+    color: white;
+}
+button{
+    border: none;
+    background-color: var(--main-color);
+}
+.header-box{
+    width: 40%;
+    padding: 3rem;
+}
+span{
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/* MAIN */
+/* DELIVERY */
+#delivery{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+#delivery h3{
+    color: var(--main-color);
+}
+#delivery article{
+    width: 30%;
+    position: relative;
+    transform: translateY(-2rem);
+}
+
+/* SERVICES */
+
+#Services h2{
+    text-align: center;
+    color: var(--main-color);
+}
+#Services > p{
+    text-align: center;
+}
+#Services{
+    background-color: aliceblue;
+    margin-inline: -5rem;
+}
+.offers{
+    justify-content: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 20rem 20rem 20rem;
+    grid-template-rows: 20rem 20rem;
+}
+.offers article{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1rem;
+    border: 1px darkgray solid;
+    background-color: white;
+}
+.offers img{
+    width: 5rem;
+}
+
+#why-us{
+    display: flex;
+}
+footer{
+    background-color: rgb(47, 47, 47);
+    text-align: center;
+    color: white;
+}
+
+/* MEDIA EXAMPLE */
+@media (max-width: 50rem){
+    #delivery{
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+    #Services{
+        padding: auto;
+    }
+    .offers{
+        grid-template-columns: 80%;
+    }
+}
