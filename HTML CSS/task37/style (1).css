@@ -1,0 +1,32 @@
+/* Use as less as possible, don't repeat yourself */
+
+.header, .footer{
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  padding-inline: 3rem;
+}
+
+.section-about, .section-products, .section-contacts {
+  padding-inline: 3rem;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-secondary {
+  background-color: gray;
+}
+
+.card1, .card2, .card3 {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
